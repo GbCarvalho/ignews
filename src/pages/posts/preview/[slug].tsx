@@ -1,5 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { getSession, useSession } from "next-auth/client";
+import { useSession } from "next-auth/client";
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";

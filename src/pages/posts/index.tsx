@@ -6,6 +6,7 @@ import { RichText } from "prismic-dom";
 
 import { getPrismicClient } from "../../services/prismic";
 import styles from "./styles.module.scss";
+import { getSession } from "next-auth/client";
 
 type Post = {
   slug: string;
@@ -73,5 +74,6 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: { posts },
+    revalidate: 60 * 1, // 1 minute
   };
 };
