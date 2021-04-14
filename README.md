@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./public/images/logo.svg" alt="ig.news">
+<img src="./public/images/logo.svg" alt="ig.news" height="60px">
 </p>
 
 <p align="center">📓 An simple blog project that integrates Prismic, Stripe and Next JS</p>
@@ -7,12 +7,12 @@
 Tabela de conteúdos
 =================
 <p align="center">
-  <a href="#About">About</a>
-  <a href="#Tecnologies">Tecnologies</a>
-  <a href="#Pre-requirements">Pre-requirements</a>
-  <a href="#Running-the-project">Running the project</a>
-  <a href="#Contributors">Contributors</a>
-  <a href="#Author">Author</a>
+  <a href="#about">About</a> •
+  <a href="#tecnologies">Tecnologies</a> •
+  <a href="#pre-requirements">Pre-requirements</a> •
+  <a href="#running-the-project">Running the project</a> •
+  <a href="#contributors">Contributors</a> •
+  <a href="#author">Author</a>
 </p>
 
 -------
