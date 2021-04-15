@@ -4,7 +4,7 @@
 
 <p align="center">📓 An simple blog project that integrates Prismic, Stripe and Next JS</p>
 
-Tabela de conteúdos
+Table of contents
 =================
 <p align="center">
   <a href="#about">About</a> •
@@ -27,7 +27,7 @@ The intent of this project is only practicing some concepts of Next.js and dicov
 
 ## Tecnologies
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following technologies were used at this project:
 
 - [React](https://pt-br.reactjs.org/)
 - [Next.js](https://nextjs.org/)
