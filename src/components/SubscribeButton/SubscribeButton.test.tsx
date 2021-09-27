@@ -8,6 +8,7 @@ jest.mock("next-auth/client", () => {
     useSession() {
       return [null, false];
     },
+    signIn: jest.fn(),
   };
 });
 
@@ -16,5 +17,17 @@ describe("SubscribeButton Component", () => {
     render(<SubscribeButton />);
 
     expect(screen.getByText("Subscribe now")).toBeInTheDocument();
+  });
+
+  it("redirects user when not authenticated", () => {
+    const signInMocked = mocked(signIn);
+
+    render(<SubscribeButton />);
+
+    const subscribeButton = screen.getByText("Subscribe now");
+
+    fireEvent.click(subscribeButton);
+
+    expect(signInMocked).toHaveBeenCalled();
   });
 });
