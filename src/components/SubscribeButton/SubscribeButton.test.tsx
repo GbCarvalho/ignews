@@ -52,7 +52,7 @@ describe("SubscribeButton Component", () => {
 
     useRouterMocked.mockReturnValueOnce({
       push: pushMock,
-    });
+    } as any);
 
     render(<SubscribeButton />);
 
