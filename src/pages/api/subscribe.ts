@@ -1,7 +1,6 @@
 import { query as q } from "faunadb";
 import { NextApiRequest, NextApiResponse } from "next";
 import { getSession } from "next-auth/client";
-import { FaUnderline } from "react-icons/fa";
 import { fauna } from "../../services/fauna";
 import { stripe } from "../../services/stripe";
 
